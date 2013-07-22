@@ -1,4 +1,4 @@
-# ttrss-test cookbook
+# ttrss cookbook
 
 # Requirements
 
