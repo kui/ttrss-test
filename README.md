@@ -11,6 +11,10 @@ ttrss-test
 このリポジトリをクローンして:
 
 ```sh
+# インストールしていないなら2つのプラグインをインストール
+vagrant plugin install vagrant-omnibus
+vagrant plugin install vagrant-berkshelf
+
 gem install bundler
 bundle
 vagrant up
