@@ -1,13 +1,27 @@
-# ttrss cookbook
+ttrss-test
+================
 
-# Requirements
+[Tiny Tiny RSS][ttrss] を試しに使うための Vagrant。
 
-# Usage
+[ttrss]: http://tt-rss.org
 
-# Attributes
+インストール
+---------------
 
-# Recipes
+このリポジトリをクローンして:
 
-# Author
+```sh
+gem install bundler
+bundle
+vagrant up
+echo 'my-tinyrss.com 127.0.0.1' | sudo tee -a /etc/hosts
+```
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+http://my-tinyrss.com:8080/install/ へアクセス。
+
+* データベース名、ユーザ名、パスワードすべて `tt-rss` と入力して `config.php` の作成が終われば完了
+
+使い方
+-------
+
+http://my-tinyrss.com:8080/ にアクセスして、ユーザ名: `admin`, パスワード: `password` でログインできる。
