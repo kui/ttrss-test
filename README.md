@@ -20,7 +20,7 @@ bundle
 vagrant up
 ```
 
-http://localhost:8080/install/ へアクセス。
+<http://localhost:8080/install/> へアクセス。
 
 * データベース名、ユーザ名、パスワードすべて `tt-rss` と入力して `config.php` の作成が終われば完了
 
@@ -28,7 +28,7 @@ http://localhost:8080/install/ へアクセス。
 使い方
 -------
 
-http://localhost:8080/ にアクセスして、ユーザ名: `admin`, パスワード: `password` でログインできる。
+<http://localhost:8080/> にアクセスして、ユーザ名: `admin`, パスワード: `password` でログインできる。
 
 
 注意
